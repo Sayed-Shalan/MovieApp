@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--ListPreference options values which stored in SharedPreference -->
+    <string-array name="pref_sort_options_values">
+        <item>@string/pref_sort_popular_value</item>
+        <item>@string/pref_sort_top_rated_value</item>
+        <item>@string/pref_sort_favourite_value</item>
+    </string-array>
+
+    <!--ListPreference options Labels -->
+    <string-array name="pref_sort_options_labels">
+        <item>@string/pref_sort_popular_label</item>
+        <item>@string/pref_sort_top_rated_label</item>
+        <item>@string/pref_sort_favourite_label</item>
+    </string-array>
+
+</resources>

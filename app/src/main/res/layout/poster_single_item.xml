@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="185dp"
+    android:layout_height="185dp">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/poster_image"
+    android:scaleType="fitXY"/>
+    <ImageView
+        android:id="@+id/poster_favourite_button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom"
+        android:src="@drawable/fav_icon"
+        android:tint="@android:color/darker_gray"
+        />
+
+</FrameLayout>

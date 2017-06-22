@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_mainctivity"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:titleTextColor="@android:color/white"
+            app:subtitleTextColor="@android:color/white"
+
+            >
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_marginTop="?actionBarSize"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="movieapp.shalan.net.sayed.movieapp.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/main_fragemnt_frame"
+        android:layout_width="0dp"
+        android:layout_weight="1.0"
+        android:layout_height="match_parent"
+        />
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:id="@+id/detail_fragment_frame_tablet">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="italic"
+            android:fontFamily="serif-monospace"
+            android:text="No movie is selected"/>
+        </FrameLayout>
+</LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

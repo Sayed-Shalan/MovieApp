@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Movies</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Sort ListPreference Title -->
+    <string name="pref_sort_label">Sort Type</string>
+
+    <!--Sort ListPreference Key -->
+    <string name="pref_sort_key">sort</string>
+
+    <!--Sort ListPreference default value -->
+    <string name="pref_sort_default_value">popular</string>
+
+    <!--Sort ListPreference popular value -->
+    <string name="pref_sort_popular_value">popular</string>
+
+    <!--Sort ListPreference top rated value -->
+    <string name="pref_sort_top_rated_value">top_rated</string>
+
+    <!--Sort ListPreference top rated value -->
+    <string name="pref_sort_favourite_value">favourite</string>
+
+    <!--Sort ListPreference popular value -->
+    <string name="pref_sort_popular_label">Popular</string>
+
+    <!--Sort ListPreference top rated value -->
+    <string name="pref_sort_top_rated_label">Top Rated</string>
+
+    <!--Sort ListPreference top rated value -->
+    <string name="pref_sort_favourite_label">Favourite</string>
+
+    <!--main menu setting item -->
+    <string name="main_menu_setting_item">Setting</string>
+
+    <!--main menu refresh item -->
+    <string name="main_menu_refresh_item">Refresh</string>
+
+    <!--Released Date TextView -->
+    <string name="released_date">Release Date</string>
+
+    <!--Related TextView -->
+    <string name="rated">Rating</string>
+
+    <!--Overview any Text -->
+    <string name="overview_def">After</string>
+
+    <!--String of action menu item-->
+    <string name="action_share">Share</string>
+</resources>
